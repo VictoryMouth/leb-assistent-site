@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>LEB-Assistent</title>
+    <meta name="description" content="LEB-Assistent – digitales Notenbuch und Unterstützung für die LEB-Konferenz auf iPad und iPhone.">
+    <style>
+        :root { --accent: #2563eb; --text: #1f2937; --muted: #6b7280; --bg: #f9fafb; --card: #ffffff; }
+        @media (prefers-color-scheme: dark) {
+            :root { --text: #f3f4f6; --muted: #9ca3af; --bg: #111827; --card: #1f2937; }
+        }
+        * { box-sizing: border-box; }
+        body { margin: 0; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+               color: var(--text); background: var(--bg); line-height: 1.6; }
+        main { max-width: 760px; margin: 0 auto; padding: 48px 20px; }
+        h1 { font-size: 2.4rem; margin: 0 0 8px; }
+        .tagline { font-size: 1.2rem; color: var(--muted); margin: 0 0 32px; }
+        .badge { display: inline-block; background: var(--accent); color: #fff; padding: 4px 12px;
+                 border-radius: 999px; font-size: 0.85rem; font-weight: 600; margin-bottom: 16px; }
+        .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 16px; margin: 32px 0; }
+        .card { background: var(--card); border-radius: 14px; padding: 20px; box-shadow: 0 1px 3px rgba(0,0,0,.08); }
+        .card h3 { margin: 0 0 6px; font-size: 1.05rem; }
+        .card p { margin: 0; color: var(--muted); font-size: 0.95rem; }
+        a { color: var(--accent); }
+        footer { margin-top: 48px; padding-top: 20px; border-top: 1px solid rgba(127,127,127,.25);
+                 color: var(--muted); font-size: 0.9rem; }
+    </style>
+</head>
+<body>
+<main>
+    <span class="badge">Beta über TestFlight</span>
+    <h1>LEB-Assistent</h1>
+    <p class="tagline">Das digitale Notenbuch für Lehrkräfte – mit Unterstützung für die LEB-Konferenz, auf iPad und iPhone.</p>
+
+    <div class="grid">
+        <div class="card">
+            <h3>📒 Notenbuch</h3>
+            <p>Noten, Bewertungen und Notenentwicklung pro Klasse und Fach übersichtlich erfassen.</p>
+        </div>
+        <div class="card">
+            <h3>🗂️ LEB-Konferenz</h3>
+            <p>Lernentwicklungsberichte und Konferenzen strukturiert vorbereiten.</p>
+        </div>
+        <div class="card">
+            <h3>🗓️ Stundenplan</h3>
+            <p>Optionale Anbindung an WebUntis für Stundenplan und Termine.</p>
+        </div>
+        <div class="card">
+            <h3>📱 Widget &amp; Live Activity</h3>
+            <p>Aktuelle Stunde und Notenübersicht direkt auf dem Home- und Sperrbildschirm.</p>
+        </div>
+        <div class="card">
+            <h3>☁️ Deine Daten bleiben bei dir</h3>
+            <p>Speicherung lokal bzw. in deinem eigenen iCloud Drive – kein Tracking, keine Werbung.</p>
+        </div>
+    </div>
+
+    <h2>Beta testen</h2>
+    <p>Der LEB-Assistent befindet sich in der Testphase. Wenn du an der Beta über TestFlight teilnehmen möchtest
+       oder Feedback hast, schreib eine E-Mail an
+       <a href="mailto:a0903794568@gmail.com">a0903794568@gmail.com</a>.</p>
+
+    <footer>
+        © 2026 Siegmund Murer · <a href="privacy.html">Datenschutzerklärung</a> ·
+        <a href="mailto:a0903794568@gmail.com">Kontakt</a>
+    </footer>
+</main>
+</body>
+</html>
